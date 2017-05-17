@@ -1,0 +1,12 @@
+{
+  "name": "soda",
+  "version": "1.0.0",
+  "description": "Soda design for netsells",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch": "nodemon -e scss -x \"npm run build\""
+  },
+  "author": "Wiktor Zawierucha",
+  "license": "ISC"
+}

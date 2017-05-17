@@ -1,0 +1,224 @@
+body {
+  font-family: "Avenir";
+  font-size: 22px;
+  font-weight: lighter;
+  color: #1e2f3e; }
+
+input[type='text'], textarea {
+  white-space: nowrap;
+  width: 100%;
+  background: #f2f3f3;
+  border-bottom: 4px solid #c9d7e3;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin-bottom: 15px;
+  font-family: inherit;
+  font-weight: 200;
+  font-size: 17px;
+  padding: 17px 10px 12px 10px;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s; }
+  input[type='text']:focus, textarea:focus {
+    border-color: #378bb7; }
+
+textarea {
+  padding: 15px 10px; }
+
+input[type='submit'] {
+  white-space: nowrap;
+  background-color: #286191;
+  border: none;
+  padding: 14px;
+  text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 3px;
+  color: white;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s; }
+  input[type='submit']:hover {
+    background-color: #378bb7; }
+
+h1 {
+  font-size: 40px;
+  padding: 12px 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  display: inline-block;
+  position: relative;
+  line-height: 50px;
+  color: white; }
+  h1:after {
+    display: block;
+    content: '';
+    width: 98%;
+    height: 1px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: white;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto; }
+
+h3 {
+  font-weight: 700;
+  color: #256299;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  padding: 40px 0px;
+  line-height: 33px;
+  position: relative; }
+  h3:after {
+    display: block;
+    content: '';
+    width: 89%;
+    height: 8px;
+    position: absolute;
+    top: 11px;
+    left: 0px;
+    background: #256299; }
+
+* ~ p {
+  margin-top: 34px; }
+
+p {
+  line-height: 34px; }
+
+section {
+  width: 100%;
+  background-position: center;
+  background-color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-color: white;
+  position: relative;
+  padding: 74px 12% 91px 12%; }
+  section#welcome {
+    text-align: center;
+    background-image: url("../images/header_bg.jpg");
+    background-size: cover;
+    background-position: center 0px;
+    padding-top: 160px;
+    padding-bottom: 175px;
+    color: #fefefe; }
+    section#welcome h1 {
+      padding: 22px 0px;
+      margin-top: 34px; }
+    section#welcome nav#social-buttons {
+      width: 100%;
+      padding: 22px 25px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px; }
+      section#welcome nav#social-buttons ul {
+        padding: 0px;
+        margin: 0px;
+        list-decoration: none;
+        text-align: left; }
+        section#welcome nav#social-buttons ul li {
+          display: inline-block; }
+          section#welcome nav#social-buttons ul li:not(:last-child) {
+            padding-right: 5px; }
+          section#welcome nav#social-buttons ul li a {
+            text-decoration: none;
+            color: white;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            background: #256299;
+            padding: 9px 0px;
+            font-size: 22px !important;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            -ms-border-radius: 100%;
+            border-radius: 100%;
+            -webkit-transition: 0.2s background;
+            -moz-transition: 0.2s background;
+            -ms-transition: 0.2s background;
+            -o-transition: 0.2s background;
+            transition: 0.2s background; }
+            section#welcome nav#social-buttons ul li a:hover {
+              background: #378bb7; }
+  section#about {
+    padding: 74px 12% 91px 12%; }
+  section#clients {
+    background-image: url("../images/clients_bg.jpg");
+    text-align: center;
+    background-attachment: fixed;
+    padding-top: 65px;
+    padding-left: 14.5%;
+    padding-right: 14.5%; }
+    section#clients .clients-list {
+      margin-top: 65px; }
+      section#clients .clients-list .client {
+        float: left;
+        padding: 15px; }
+        section#clients .clients-list .client .client-content {
+          display: block;
+          background-color: rgba(34, 51, 65, 0.96);
+          position: relative;
+          padding-top: 100%;
+          -webkit-transition: 0.2s;
+          -moz-transition: 0.2s;
+          -ms-transition: 0.2s;
+          -o-transition: 0.2s;
+          transition: 0.2s; }
+          section#clients .clients-list .client .client-content img {
+            display: inline-block;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto; }
+          section#clients .clients-list .client .client-content:hover {
+            background-color: #256299; }
+  section#contact {
+    font-size: 20px;
+    padding-bottom: 34px; }
+    section#contact h1 {
+      color: #1e2f3e; }
+      section#contact h1:after {
+        background-color: #1e2f3e; }
+    section#contact ul.contacts {
+      font-family: "Open Sans";
+      margin-top: 30px;
+      font-size: 18px;
+      list-style: none;
+      padding: 0px;
+      margin-left: 0px; }
+      section#contact ul.contacts li {
+        padding-bottom: 22px; }
+    section#contact form {
+      margin-top: 37px; }
+      section#contact form textarea {
+        min-height: 133px;
+        resize: vertical; }
+
+footer {
+  padding: 38px 12%;
+  color: white;
+  width: 100%;
+  background-color: #0d171f;
+  font-size: 14px;
+  font-family: "Avenir-Roman"; }
+  footer a, footer a:visited {
+    color: white;
+    text-decoration: none; }
